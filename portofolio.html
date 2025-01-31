@@ -1,0 +1,43 @@
+<!doctype html><html class="no-js" lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>CV Biora Prima Mandiri</title><meta name="description" content="Gulp Starter Kit for front-end developer which supports: SCSS, Nunjucks, Babel + auto polyfill, Browserify &amp; Browsersync."><meta property="og:title" content="Gulp Starter Kit"><meta property="og:site_name" content="Gulp Starter Kit"><meta property="og:description" content="Gulp Starter Kit for front-end developer which supports: SCSS, Nunjucks, Babel + auto polyfill, Browserify &amp; Browsersync."><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary"><meta name="theme-color" content="#cf4647"><link rel="icon" href="/favicon.ico"><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/demo.css"><link rel="stylesheet" href="assets/css/app.css"></head><body class="start"><div class="page"><div class="header-background-page"><div class="container header-page"><img src="./assets/img/call_32dp_FFFFFF_FILL0_wght400_GRAD0_opsz40_white.png" alt="call-img"><p>Hubungi kami : 0895402693775</p></div></div><nav class="navbar"><div class="container"><div class="flex-nav"><div class="logo"><img src="./assets/img/log-new-n0bg.png" alt="LOGO"><p>BIORA PRIMA MANDIRI</p></div><div class="push-left"><button id="menu-toggler" data-class="menu-active" class="hamburger"><span class="hamburger-line hamburger-line-top"></span> <span class="hamburger-line hamburger-line-middle"></span> <span class="hamburger-line hamburger-line-bottom"></span></button><ul id="primary-menu" class="menu nav-menu"><li class="menu-item current-menu-item"><a class="nav__link" href="./index.html">Beranda</a></li><li class="menu-item"><a class="nav__link" href="./about.html">About</a></li><li class="menu-item"><a class="nav__link" href="./pricelist.html">Pricelist</a></li><li class="menu-item"><a class="nav__link" href="./produk.html">Produk</a></li></ul></div><a href="https://wa.me/62895402693775?text=Halo%20saya%20ingin%20tahu%20lebih%20banyak%20tentang%20CV%20BIORA%20PRIMA%20MANDIRI,%20Apakah%20bisa%20dibantu%3F"><button class="button button--primary">Kontak Kami</button></a></div></div></nav><div class="content"><div class="ads"><div class="bg-ads"><img src="./assets/img/ads-bg.png" alt=""></div><div class="container"><div class="main-heading"><h1 class="heading">YUK BIKIN BAJU DI RIKONVESI<br>KAMI SIAP MEMBANTU<br>KEBUTUHANMU</h1><a href="https://wa.me/62895402693775?text=Halo%20CV%20Biora%20Prima%20Mandiri,%20saya%20ingin%20memesan%20baju%20dengan%20desain%20custom.%20Mohon%20dibantu%20untuk%20proses%20pemesanan%20dan%20detailnya.%20Terima%20kasih!"><button class="button button--primary">BIKIN BAJU</button> </a><a href="./portofolio.html"><button class="button button--outline">CEK REFRENSI DESIGN</button></a></div></div></div></div><footer class="footer"><div class="container"><div class="footer-container"><div class="footer-logo"><div class="logo"><img src="./assets/img/log-new-n0bg.png" alt="Logo"></div><h2>CV Biora Prima Mandiri</h2><p class="text-footer">CRACKEDATTIC MARKET PROJECT</p><p>Jl. Walet no : 18 LK.5 Semanding, Pare, 64211, Kediri,</p><p>Jawa Timur, Indonesia</p></div><div class="footer-contact"><h2 class="mb-12">Hubungi Kami</h2><span class="icon-text"><img src="./assets/img/mail_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt=""><p>Email: cvbioraprimamandiri@gmail.com</p></span><span class="icon-text"><img src="./assets/img/whatsapp-svgrepo-com 1.png" alt=""><p>WA : 089528914548 ( PEAK MARKET )</p></span><span class="icon-text"><img src="./assets/img/whatsapp-svgrepo-com 1.png" alt=""><p>WA : 081227049405 ( CRACKEDATTIC )</p></span><button class="mt-16 button button--primary button--icon button--icon--back">Customer Service <i class="icon-back"><img src="./assets/img/pngwing.com.png" alt=""></i></button></div><div class="footer-social-media"><h3>PORTOFOLIO DESIGN</h3><a href="./portofolio.html"><button class="mt-16 button button--icon button--icon--outline-front">CEK PORTOFOLIO</button></a></div></div></div></footer><div class="footer-card"><div class="container"><div class="footer-flex"><h2>CV Biora Prima Mandiri</h2><h2 class="mt-4">CRACKEDATTIC 2024, INDONESIA</h2></div></div></div></div><script src="assets/js/app.js"></script><script>document
+        .getElementById('menu-toggler')
+        .addEventListener('click', function () {
+          toggleBodyClass('menu-active')
+        })
+      function toggleBodyClass(className) {
+        document.body.classList.toggle(className)
+      }
+
+      function playVideo() {
+        const video = document.querySelector('.video-player')
+        const playButton = document.querySelector('.play-button')
+
+        if (video.paused) {
+          video.play()
+          playButton.style.display = 'none'
+        } else {
+          video.pause()
+          playButton.style.display = 'flex' // Show the play button when paused
+        }
+      }
+
+      document.querySelector('.video-player').addEventListener('ended', () => {
+        document.querySelector('.play-button').style.display = 'flex'
+      })
+
+      function toggleVideo() {
+        const video = document.querySelector('.video')
+        const playIcon = document.querySelector('.play-icon')
+
+        if (video.paused) {
+          video.play()
+          playIcon.style.display = 'none'
+        } else {
+          video.pause()
+          playIcon.style.display = 'block'
+        }
+      }
+
+      // Event listener for ending the video
+      document.querySelector('.video').addEventListener('ended', () => {
+        document.querySelector('.play-icon').style.display = 'block'
+      })</script></body></html>
